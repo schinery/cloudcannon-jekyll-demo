@@ -18,17 +18,20 @@ email: stuart.chinery@headlondon.com
 description: > # this means to ignore newlines until "baseurl:"
   Demo site to test the Cloud Cannon platform and Jekyll integration with Github.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://magnificent-peanut.cloudvent.net" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 uploads_dir: "assets/images"
 
-# Usernames
-twitter_username: sleepingstu
-github_username:  sleepingstu
+github_repo: cloudcannon-jekyll-demo # the GitHub repo name for your project
+github_username: sleepingstu
+
+# Optional social link, you can choose from the following options:
+# twitter (default), instagram, medium, or dribbble
+social_link: twitter
+social_username: sleepingstu
 
 # Build settings
 markdown: kramdown
 theme: jekyll-swiss
-theme-color: black
 
 gems:
   - jekyll-sitemap
