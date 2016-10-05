@@ -25,3 +25,6 @@ github_username:  sleepingstu
 # Build settings
 markdown: kramdown
 theme: minima
+
+gems:
+  - jekyll-sitemap
