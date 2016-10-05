@@ -16,7 +16,7 @@
 title: Cloud Cannon Demo
 email: stuart.chinery@headlondon.com
 description: > # this means to ignore newlines until "baseurl:"
-  Demo site to test the Cloud Cannon platform and Jekyll intgration.
+  Demo site to test the Cloud Cannon platform and Jekyll integration with Github.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://magnificent-peanut.cloudvent.net" # the base hostname & protocol for your site
 twitter_username: sleepingstu
