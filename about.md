@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 
-This is the about page.
+This is the about page. It should be awesome.
