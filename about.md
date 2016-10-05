@@ -6,3 +6,5 @@ permalink: /about/
 
 
 This is the about page.
+
+![](/assets/images/versions/wave---x----216-75x---.png)
