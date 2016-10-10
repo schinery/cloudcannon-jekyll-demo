@@ -238,12 +238,12 @@
 	}
 }
 .page-lead-content {
-	padding: 1em;
+	padding: 2em;
 	@include media($medium) {
-		padding: 2em;
+		padding: 3em;
 	}
 	@include media($large) {
-		padding: 3em;
+		padding: 5em;
 	}
 	h1 {
 		@include font-size(48);
@@ -260,7 +260,7 @@
 			@include font-size(24);
 		}
 		@include media($large) {
-			@include font-size(32);
+			@include font-size(30);
 		}
 	}
 }
