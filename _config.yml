@@ -1,39 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site wide configuration
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Cloud Cannon Demo
-email: stuart.chinery@headlondon.com
-description: > # this means to ignore newlines until "baseurl:"
-  Demo site to test the Cloud Cannon platform and Jekyll integration with Github.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-uploads_dir: "assets/images"
+title: "Cloud Cannon Demo"
+description: "Demo site to showcase Cloud Cannon and Jekyll integration."
+logo: logo-120x120.png
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: en
+url:
+feed:
+  path: atom.xml
 
-# Github Details
-github_repo: cloudcannon-jekyll-demo # the GitHub repo name for your project
-github_username: sleepingstu
-
-# Optional social link, you can choose from the following options:
-# twitter (default), instagram, medium, or dribbble
-social_link: twitter
-social_username: sleepingstu
-
-# Build settings
-include: ['_pages']
-markdown: kramdown
-theme: jekyll-swiss
+# Jekyll configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
 
 gems:
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google:
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname:
+
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
