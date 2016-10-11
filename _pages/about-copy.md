@@ -1,7 +1,8 @@
 ---
 layout: media
-permalink: /about/
-title: About
+permalink: /terms/
+title: Terms
 ---
+
 
 This is the about page.
