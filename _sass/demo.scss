@@ -1,0 +1,35 @@
+/* Skinny Bones Overrides */
+
+#js-menu-trigger {
+  @include media($large) {
+    display: none;
+  }
+}
+
+.top-menu {
+  @include media($medium) {
+    display: none;
+  }
+  @include media($large) {
+    display: block;
+  }
+}
+
+#site-footer {
+  margin-top: 0px;
+}
+
+.sliding-menu-content li {
+  min-height: auto;
+  a {
+    font-family: $alt-font;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* New styles */
+#footer-wrapper {
+  padding: 0 $gutter;
+}
