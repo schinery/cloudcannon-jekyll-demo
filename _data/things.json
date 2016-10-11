@@ -1,10 +1,14 @@
 [
-  {
-    "title": "Foo",
-    "description": "This is a foo item."
-  },
-  {
-    "title": "Bar",
-    "description": "This is a bar item."
-  }
+	{
+		"title": "Foo",
+		"description": "This is a foo item."
+	},
+	{
+		"title": "Bar",
+		"description": "This is a bar item."
+	},
+	{
+		"title": "Baz",
+		"description": "This is a baz item."
+	}
 ]
