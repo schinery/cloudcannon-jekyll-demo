@@ -6,7 +6,7 @@ Demo site to test the Cloud Cannon platform and Jekyll integration with Github.
 
 - [Project dependencies](#project-dependencies)
 - [Start Application](#start-application)
-- [Theme Used](#theme-used)
+- [Base Theme](#base-theme)
 
 <!-- /MarkdownTOC -->
 
@@ -42,6 +42,6 @@ jekyll serve
 
 You should be able to access the site at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
-## Theme Used
+## Base Theme
 
-The initial theme used for this demo is the [skinny-bones-jekyll](https://mmistakes.github.io/skinny-bones-jekyll/) theme by [mmistakes](https://github.com/mmistakes).
+The base theme used for this demo is the [skinny-bones-jekyll](https://mmistakes.github.io/skinny-bones-jekyll/) theme by [mmistakes](https://github.com/mmistakes).

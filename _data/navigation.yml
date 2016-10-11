@@ -2,10 +2,9 @@
 
 - title: About
   url: /about
-  excerpt:
-  image:
 
-- title: List of Things
-  url: /list-of-things
-  excerpt:
-  image:
+- title: Things
+  url: /things
+
+- title: Recipes
+  url: /recipes

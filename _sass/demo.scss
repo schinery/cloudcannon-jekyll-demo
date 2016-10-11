@@ -33,3 +33,20 @@
 #footer-wrapper {
   padding: 0 $gutter;
 }
+
+.recipe {
+  .img {
+    @include media($medium) {
+      float:left;
+    }
+  }
+  .ingredients {
+    @include media($medium) {
+      float:right;
+    }
+  }
+  .instructions {
+    padding: 10px 0 0;
+    clear: both;
+  }
+}

@@ -1,8 +1,8 @@
 ---
 layout: media
-title: List of Things
-permalink: /list-of-things
+permalink: /things/
 share: false
+title: Things
 ---
 
 This is the list of things page.

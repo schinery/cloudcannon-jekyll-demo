@@ -1,5 +1,4 @@
 # Site wide configuration
-
 title: "Cloud Cannon Demo"
 description: "Demo site to showcase Cloud Cannon and Jekyll integration."
 logo: logo-120x120.png
@@ -18,10 +17,24 @@ kramdown:
   toc_levels: 1..2
 highlighter: rouge
 
+# Gems
 gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /recipes/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: recipe
 
 # Site owner
 owner:

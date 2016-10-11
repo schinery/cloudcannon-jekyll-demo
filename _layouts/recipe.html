@@ -1,0 +1,25 @@
+---
+layout: media
+---
+
+<div id="main" role="main" class="recipe">
+  <article class="wrap" itemscope itemtype="http://schema.org/Article">
+    <div class="img">
+      <img src="{{ page.image_path }}" alt="page.title" />
+    </div>
+
+    <div class="ingredients">
+    <h2>Ingredients</h2>
+      <ul>
+        {% for ingredient in page.ingredients %}
+          <li>{{ ingredient }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="instructions clearfix">
+      <h2>Instructions</h2>
+      {{ content }}
+    </div>
+  </article>
+</div>
