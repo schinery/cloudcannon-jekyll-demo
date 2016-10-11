@@ -40,7 +40,7 @@ To start the application run:
 jekyll serve
 ```
 
-You should be able to access the application the App at [http://127.0.0.1:4000](http://127.0.0.1:4000)
+You should be able to access the site at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
 ## Theme
 
