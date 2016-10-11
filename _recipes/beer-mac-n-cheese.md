@@ -1,4 +1,5 @@
 ---
+description: A staple of Manhattan's East Village, Emma Freud's cheddar and pale ale pasta dish is the ultimate comfort food
 image_path: http://www.bbcgoodfood.com/sites/default/files/styles/recipe/public/recipe/recipe-image/2016/07/beer-mac-n-cheese.jpg?itok=jqWnZoFx
 ingredients: [
   '50g butter',
@@ -9,6 +10,40 @@ ingredients: [
   '220g macaroni',
   '100g cheddar, grated',
   '200g mozzarella, grated'
+]
+nutritions: [
+  {
+    label: kcal,
+    value: 589
+  },
+  {
+    label: fat,
+    value: 35g
+  },
+  {
+    label: saturates,
+    value: 22g
+  },
+  {
+    label: carbs,
+    value: 37g
+  },
+  {
+    label: sugars,
+    value: 8g
+  },
+  {
+    label: fibre,
+    value: 2g
+  },
+  {
+    label: protein,
+    value: 27g
+  },
+  {
+    label: salt,
+    value: 1.4g
+  }
 ]
 title: Beer Mac 'N' Cheese
 ---

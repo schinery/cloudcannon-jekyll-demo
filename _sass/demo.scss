@@ -38,11 +38,22 @@
   .img {
     @include media($medium) {
       float:left;
+      max-width: 500px;
+      width: 60%;
     }
   }
   .ingredients {
     @include media($medium) {
       float:right;
+      width: 35%;
+    }
+
+    h2 {
+      font-size: 15px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 0;
     }
   }
   .instructions {
