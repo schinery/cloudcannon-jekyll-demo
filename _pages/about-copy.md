@@ -5,4 +5,4 @@ title: Terms
 ---
 
 
-This is the about page.
+This is the terms page.
