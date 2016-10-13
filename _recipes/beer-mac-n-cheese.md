@@ -10,6 +10,7 @@ ingredients:
   - 220g macaroni
   - '100g cheddar, grated'
   - '200g mozzarella, grated'
+  - Beer
 nutritions:
   - label: kcal
     value: 589
